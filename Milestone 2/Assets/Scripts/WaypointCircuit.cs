@@ -237,10 +237,6 @@ namespace UnityStandardAssets.Utility.Inspector
             float y = position.y;
             float inspectorWidth = position.width;
 
-            // Draw label
-
-
-            // Don't make child fields be indented
             var indent = EditorGUI.indentLevel;
             EditorGUI.indentLevel = 0;
 
